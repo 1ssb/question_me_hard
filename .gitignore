@@ -17,3 +17,8 @@ htmlcov/
 # Editors
 .vscode/
 .idea/
+# API Keys & Secrets
+api.txt
+*.key
+*.secret
+.env
