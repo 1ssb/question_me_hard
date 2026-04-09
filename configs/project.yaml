@@ -1,0 +1,8 @@
+project_name: hedgeagent
+results_dir: results
+reports_dir: reports
+manifests_dir: manifests
+default_seed: 7
+default_dataset_dir: manifests/generated/datasets
+default_prompt_version: decision_prompt_v1.txt
+

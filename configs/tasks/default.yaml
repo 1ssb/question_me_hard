@@ -1,0 +1,16 @@
+seed: 7
+train_size: 100
+val_size: 40
+test_size: 40
+width: 9
+height: 9
+obstacle_density: 0.18
+obstacle_density_jitter: 0.12
+observation_budget_min: 1
+observation_budget_max: 4
+observation_radius: 1
+initial_reveal_radius: 1
+semantic_hint_probability: 0.35
+noise_probability: 0.0
+max_generation_attempts: 250
+

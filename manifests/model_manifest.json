@@ -1,0 +1,107 @@
+[
+  {
+    "discovered_at": "2026-04-08T08:46:47+00:00",
+    "full_evaluated_at": null,
+    "last_error": null,
+    "metadata": {
+      "details": {
+        "families": [
+          "phi2",
+          "clip"
+        ],
+        "family": "phi2",
+        "format": "gguf",
+        "parameter_size": "1B",
+        "parent_model": "",
+        "quantization_level": "Q4_0"
+      },
+      "modified_at": "2026-03-20T18:56:10.030051589+11:00",
+      "name": "moondream:latest",
+      "size": 1738451197
+    },
+    "model_name": "moondream:latest",
+    "pilot_evaluated_at": null,
+    "schema_validated_at": null,
+    "smoke_tested_at": null,
+    "status": "discovered"
+  },
+  {
+    "discovered_at": "2026-04-08T08:46:47+00:00",
+    "full_evaluated_at": null,
+    "last_error": null,
+    "metadata": {
+      "details": {
+        "families": [
+          "qwen25vl"
+        ],
+        "family": "qwen25vl",
+        "format": "gguf",
+        "parameter_size": "8.3B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "episodes": 5,
+      "last_run_dir": "/home/rudra/projects/question_me_hard/results/20260408T084818Z__ollama__qwen2.5vl_7b__val",
+      "last_smoke_dir": "/home/rudra/projects/question_me_hard/results/20260408T084652Z__ollama__qwen2.5vl_7b__val",
+      "modified_at": "2026-03-12T18:38:01.902310057+11:00",
+      "name": "qwen2.5vl:7b",
+      "size": 5969245856
+    },
+    "model_name": "qwen2.5vl:7b",
+    "pilot_evaluated_at": "2026-04-08T08:48:27+00:00",
+    "schema_validated_at": null,
+    "smoke_tested_at": "2026-04-08T08:47:11+00:00",
+    "status": "pilot_evaluated"
+  },
+  {
+    "discovered_at": "2026-04-08T08:46:47+00:00",
+    "full_evaluated_at": null,
+    "last_error": null,
+    "metadata": {
+      "details": {
+        "families": [
+          "mllama"
+        ],
+        "family": "mllama",
+        "format": "gguf",
+        "parameter_size": "10.7B",
+        "parent_model": "",
+        "quantization_level": "Q4_K_M"
+      },
+      "modified_at": "2026-03-12T18:23:58.333316446+11:00",
+      "name": "llama3.2-vision:11b",
+      "size": 7816589186
+    },
+    "model_name": "llama3.2-vision:11b",
+    "pilot_evaluated_at": null,
+    "schema_validated_at": null,
+    "smoke_tested_at": null,
+    "status": "discovered"
+  },
+  {
+    "discovered_at": "2026-04-08T08:46:47+00:00",
+    "full_evaluated_at": null,
+    "last_error": null,
+    "metadata": {
+      "details": {
+        "families": [
+          "llama",
+          "clip"
+        ],
+        "family": "llama",
+        "format": "gguf",
+        "parameter_size": "13B",
+        "parent_model": "",
+        "quantization_level": "Q4_0"
+      },
+      "modified_at": "2026-03-12T17:50:39.93497104+11:00",
+      "name": "llava:13b",
+      "size": 8011256494
+    },
+    "model_name": "llava:13b",
+    "pilot_evaluated_at": null,
+    "schema_validated_at": null,
+    "smoke_tested_at": null,
+    "status": "discovered"
+  }
+]

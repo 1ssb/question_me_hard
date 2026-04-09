@@ -1,0 +1,12 @@
+split: val
+limit: 25
+seed: 7
+max_steps: 6
+timeout_seconds: 20.0
+resume: true
+write_model_calls: true
+output_root: results
+slice_thresholds:
+  low_observation_max_budget: 2
+  high_uncertainty_min_fraction: 0.35
+

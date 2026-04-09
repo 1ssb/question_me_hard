@@ -1,0 +1,79 @@
+{
+  "probe": {
+    "base_url": "http://127.0.0.1:11434",
+    "cli_list_ok": true,
+    "daemon_running": true,
+    "daemon_version": "0.20.2",
+    "executable_exists": true,
+    "executable_path": "/usr/local/bin/ollama",
+    "help_snippet": "Large language model runner\n\nUsage:\n  ollama [flags]\n  ollama [command]\n\nAvailable Commands:\n  serve       Start Ollama\n  create      Create a model\n  show        Show information for a model\n  run         Run a model\n  stop        Stop a running model",
+    "http_tags_error": null,
+    "models": [
+      {
+        "details": {
+          "families": [
+            "phi2",
+            "clip"
+          ],
+          "family": "phi2",
+          "format": "gguf",
+          "parameter_size": "1B",
+          "parent_model": "",
+          "quantization_level": "Q4_0"
+        },
+        "modified_at": "2026-03-20T18:56:10.030051589+11:00",
+        "name": "moondream:latest",
+        "size": 1738451197
+      },
+      {
+        "details": {
+          "families": [
+            "qwen25vl"
+          ],
+          "family": "qwen25vl",
+          "format": "gguf",
+          "parameter_size": "8.3B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "modified_at": "2026-03-12T18:38:01.902310057+11:00",
+        "name": "qwen2.5vl:7b",
+        "size": 5969245856
+      },
+      {
+        "details": {
+          "families": [
+            "mllama"
+          ],
+          "family": "mllama",
+          "format": "gguf",
+          "parameter_size": "10.7B",
+          "parent_model": "",
+          "quantization_level": "Q4_K_M"
+        },
+        "modified_at": "2026-03-12T18:23:58.333316446+11:00",
+        "name": "llama3.2-vision:11b",
+        "size": 7816589186
+      },
+      {
+        "details": {
+          "families": [
+            "llama",
+            "clip"
+          ],
+          "family": "llama",
+          "format": "gguf",
+          "parameter_size": "13B",
+          "parent_model": "",
+          "quantization_level": "Q4_0"
+        },
+        "modified_at": "2026-03-12T17:50:39.93497104+11:00",
+        "name": "llava:13b",
+        "size": 8011256494
+      }
+    ],
+    "running_processes": "4841 ollama serve",
+    "version": "ollama version is 0.20.2"
+  },
+  "selected_model": "qwen2.5vl:7b"
+}
